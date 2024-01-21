@@ -1,11 +1,10 @@
-# giant-ducks-mix
+# Master Admin Dashboard
 
 <div align="center" style="margin: 30px;">
     <a href="https://refine.dev">
     <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
     </a>
 </div>
-<br/>
 
 This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
 
@@ -17,19 +16,19 @@ Refine's hooks and components simplifies the development process and eliminates 
 
 ## Available Scripts
 
-### Running the development server.
+### Running the development server
 
 ```bash
     npm run dev
 ```
 
-### Building for production.
+### Building for production
 
 ```bash
     npm run build
 ```
 
-### Running the production server.
+### Running the production server
 
 ```bash
     npm run start
@@ -39,11 +38,26 @@ Refine's hooks and components simplifies the development process and eliminates 
 
 To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
 
-- **NestJS Query Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
-- **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
+- **Vite** (Project Template) [Docs](https://vitejs.dev)
+- **NestJS Query Data Provider** (Backend Service) [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
+- **Ant Design** (UI Framework) [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
 - **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
+- **Custom Auth Provider** (Authentication Logic) [Docs](https://refine.dev/docs/core/providers/auth-provider/)
 
 ## License
 
 MIT
+
+## Commands used in this projects :-
+
+### Create Application using Refine
+
+``` bash
+npm create refine-app@latest
+```
+
+### Install dependencies
+
+``` bash
+npm install
+```

@@ -1,5 +1,5 @@
 {
-  "name": "giant-ducks-mix",
+  "name": "Master-Admin-Dashboard",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -32,7 +32,7 @@
     "vite": "^4.3.1"
   },
   "scripts": {
-    "dev": "refine dev",
+    "dev": "refine dev --host --port 5173",
     "build": "tsc && refine build",
     "preview": "refine start",
     "refine": "refine"
